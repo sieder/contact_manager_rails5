@@ -55,3 +55,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'faker', '~> 1.9', '>= 1.9.1'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'

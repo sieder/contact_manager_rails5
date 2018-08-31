@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2018_08_30_030626) do
     t.string "name"
     t.string "company"
     t.string "email"
-    t.string "phome"
+    t.string "phone"
     t.string "address"
     t.bigint "group_id"
     t.datetime "created_at", null: false
