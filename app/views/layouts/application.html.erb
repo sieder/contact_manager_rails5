@@ -17,6 +17,7 @@
       <div class="row">
 	<%= render 'layouts/sidebar' %>
         <div class="col-md-9">
+          <%= render "layouts/messages" if !flash.empty? %>
 		<%= yield %>
           </div>
         </div>
